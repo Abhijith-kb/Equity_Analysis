@@ -51,3 +51,27 @@ This project automates the process of collecting, storing, and analyzing fundame
 - Update the MongoDB connection string in the configuration file if needed.
 
 5. **Run the data extraction script:**
+- command for ticker : python3 screener.py -t ticker -o option , for filenames : python3 screener.py -f filename.txt -o option
+- Check ticker presence in database, if not present then inserts data into databases : python3 screener.py -t TCS -o 1
+- Maintainance: Refresh data in SQLite : python3 screener.py -t TCS -o 2
+- Maintainance: Refresh data in MongoDB : python3 screener.py -t TCS -o 3
+- Display all information of the ticker : python3 screener.py -t TCS -o 4
+- To display Intrinsic value of the ticker : python3 screener.py -t TCS -o 5
+- Check and update, if new symbols exists in nse_module then update nse_companies_symbols.txt and insert into database. If any symbol cannot be fetched then it will be written in black_list.txt : python3 screener.py -f filename.txt -o 6
+- Maintainance: To Update Intrinsic Value of the ticker : python3 screener.py -t TCS -o 1
+This will fetch company data, scrape financials, and populate the databases.
+
+6. **Launch the GUI:**
+- python3 stocks_filter.py
+- Use the interface to filter and explore companies based on your criteria.
+
+## Usage
+- Use the GUI to select filters like market capitalization, Current price, ROCE, ROE, sector, industry and undervalued companies
+- The app displays companies that meet all selected criteria along with their intrinsic value estimates.
+- The blacklist file contains companies that could not be found on Screener.in.
+
+## Images for understanding
+Command prompt output displaying the result of executing the Python script screener.py with the ticker symbol 'TCS' and option '-o 4', showing the script's processed data or analysis related to TCS stock.
+![Screenshot from 2025-04-19 14-32-08](https://github.com/user-attachments/assets/541047f3-e03e-4401-92a8-d4979f5796bb)
+
+
