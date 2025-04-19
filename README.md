@@ -40,7 +40,7 @@ This project automates the process of collecting, storing, and analyzing fundame
 3. **Install dependencies:**
   pip install -r requirements.txt
 
-4. **Set up MongoDB Use webdriver-manager in your Python code to handle ChromeDriver, avoiding manual downloads.:**
+4. **Set up MongoDB and WebDriver:**
 - Make sure MongoDB is installed and running on your machine. Update the MongoDB connection string in the configuration file if needed.
 - For Selenium Chrome browser automation, it is recommended to use webdriver-manager which automatically downloads and manages the correct version of Chromedriver.
 Example usage in your Python script:
@@ -66,7 +66,7 @@ driver = webdriver.Chrome(executable_path='path/to/chromedriver')
   - Display all information of the ticker : python3 screener.py -t TCS -o 4
   - To display Intrinsic value of the ticker : python3 screener.py -t TCS -o 5
   - Check and update, if new symbols exists in nse_module then update nse_companies_symbols.txt and insert into database. If any symbol cannot be fetched then it will be written in black_list.txt : python3 screener.py -f filename.txt -o 6
-  - Maintainance: To Update Intrinsic Value of the ticker : python3 screener.py -t TCS -o 1
+  - Maintainance: To Update Intrinsic Value of the ticker : python3 screener.py -t TCS -o 1.
     This will fetch company data, scrape financials, and populate the databases.
 
 6. **Launch the GUI:**
