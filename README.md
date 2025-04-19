@@ -75,10 +75,10 @@ Command prompt output displaying the result of executing the Python script scree
 ![Screenshot from 2025-04-19 14-32-08](https://github.com/user-attachments/assets/541047f3-e03e-4401-92a8-d4979f5796bb)
 
 Screenshots of the stocks filtering GUI launched via python3 stocks_filter.py, showing the interface where users can apply filters such as market capitalization, current price, ROCE, ROE, sector, industry, and undervalued status to explore companies meeting selected criteria along with their intrinsic value estimates.
-All companies
+- All companies
 ![Screenshot from 2025-04-19 14-41-09](https://github.com/user-attachments/assets/373b95cf-6bf1-4105-a249-36ee51a7d415)
 
-Only Undervalued Companies
+- Only Undervalued Companies
 ![Screenshot from 2025-04-19 14-41-19](https://github.com/user-attachments/assets/dfc3cc42-24bd-4781-8c65-e77fe4df3f36)
 
 
