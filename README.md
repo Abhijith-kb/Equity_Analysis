@@ -89,4 +89,5 @@ Screenshots of the stocks filtering GUI launched via python3 stocks_filter.py, s
 - Only Undervalued Companies
 ![Screenshot from 2025-04-19 14-41-19](https://github.com/user-attachments/assets/dfc3cc42-24bd-4781-8c65-e77fe4df3f36)
 
-
+## Author
+Abhijith k, 2025
