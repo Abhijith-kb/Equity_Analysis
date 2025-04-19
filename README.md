@@ -49,7 +49,7 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
-- Manual Chromedriver download (optional):
+- Manual Chromedriver download (Implemented):
 If you prefer manual setup, download the Chromedriver version matching your Chrome browser from https://chromedriver.chromium.org/downloads, then place it in a known folder and specify its path in your Selenium code:
 python
 driver = webdriver.Chrome(executable_path='path/to/chromedriver')
