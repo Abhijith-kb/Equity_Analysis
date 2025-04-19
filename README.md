@@ -30,17 +30,15 @@ This project automates the process of collecting, storing, and analyzing fundame
    '''
 
 2. **Create and activate a virtual environment:**
+'''
 - Windows:
-   '''
-   python -m venv venv
-   venv\Scripts\activate
-   '''
-- Mac/Linux:
-   '''
-   python3 -m venv venv
-   source venv/bin/activate
-   '''
+python -m venv venv
+venv\Scripts\activate
 
+- Mac/Linux:
+python3 -m venv venv
+source venv/bin/activate
+'''
 3. **Install dependencies:**
    '''
    pip install -r requirements.txt
