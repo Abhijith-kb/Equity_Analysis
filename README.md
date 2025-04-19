@@ -27,7 +27,6 @@ This project automates the process of collecting, storing, and analyzing fundame
    '''
    git clone https://github.com/Abhijith-kb/Equity_Analysis.git
    cd Equity_Analysis
-   '''
 
 2. **Create and activate a virtual environment:**
 '''
@@ -38,11 +37,9 @@ venv\Scripts\activate
 - Mac/Linux:
 python3 -m venv venv
 source venv/bin/activate
-'''
 3. **Install dependencies:**
    '''
    pip install -r requirements.txt
-   '''
 
 4. **Set up MongoDB:**
 - Make sure MongoDB is installed and running on your machine.
