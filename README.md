@@ -24,8 +24,10 @@ This project automates the process of collecting, storing, and analyzing fundame
 
 ## Installation & Setup
 1. **Clone the repository:**
+  ```
   git clone https://github.com/Abhijith-kb/Equity_Analysis.git
   cd Equity_Analysis
+  ```
 
 2. **Create and activate a virtual environment:**
 - Windows:
@@ -44,7 +46,7 @@ This project automates the process of collecting, storing, and analyzing fundame
   pip install -r requirements.txt
   ```
 
-5. **Set up MongoDB and WebDriver:**
+4. **Set up MongoDB and WebDriver:**
 - Make sure MongoDB is installed and running on your machine. Update the MongoDB connection string in the configuration file if needed.
 - For Selenium Chrome browser automation, it is recommended to use webdriver-manager which automatically downloads and manages the correct version of Chromedriver.
 Example usage in your Python script:
