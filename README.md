@@ -97,6 +97,9 @@ Screenshots of the stocks filtering GUI launched via python3 stocks_filter.py, s
 - Only Undervalued Companies
 ![Screenshot from 2025-04-19 14-41-19](https://github.com/user-attachments/assets/dfc3cc42-24bd-4781-8c65-e77fe4df3f36)
 
+MongoDB screenshot
+![Screenshot from 2025-04-21 19-52-16](https://github.com/user-attachments/assets/9b3023c4-bb5d-41d8-9abe-04412944c02c)
+
 Disclaimer:
 The DCF calculations may be inaccurate or simplified. Use with caution and verify independently. Improvements will be made after further research.
 
