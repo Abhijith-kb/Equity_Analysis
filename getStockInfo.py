@@ -81,7 +81,6 @@ def setup_databases():
     )''')
     conn.commit()
 
-    atlas_mongodb = "mongodb+srv://abhijithk:lLGJeCvvFMBGC4O5@cluster0.3gtba.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     local_mongodb = "mongodb://localhost:27017/"
     cluster = MongoClient(local_mongodb)
     db = cluster["stock_mdb"]
